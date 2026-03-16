@@ -8,13 +8,13 @@
         Manage Blogs
     </a>
 
-      <a href="{{ route('admin.blogs.contacts') }}" class="{{ request()->routeIs('admin.blogs.*') ? 'active' : '' }}">
+      <!-- <a href="{{ route('admin.blogs.contacts') }}" class="{{ request()->routeIs('admin.blogs.*') ? 'active' : '' }}">
       Contacts Query
-    </a>
+    </a> -->
 
-     <a href="{{ route('admin.blogs.podcasts') }}" class="{{ request()->routeIs('admin.blogs.*') ? 'active' : '' }}">
+     <!-- <a href="{{ route('admin.blogs.podcasts') }}" class="{{ request()->routeIs('admin.blogs.*') ? 'active' : '' }}">
       Podcasts Query
-    </a>
+    </a> -->
 
     
 </div>     
